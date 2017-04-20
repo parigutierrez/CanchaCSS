@@ -1,3 +1,70 @@
 body{
-  background-color: green;
+  background-color: black;
+}
+#cancha{
+  margin-left:14%;
+  margin-top: 3%;
+}
+img{
+  width: 900px;
+  height: 600px;
+  position: absolute;
+}
+#contorno{
+  position: relative;
+  border: 3px solid white;
+  width: 850px;
+  height: 550px;
+  top:25px;
+  left:24px;
+}
+.porteria{
+  width: 130px;
+  height: 200px;
+  border: 3px solid white;
+  position:absolute;
+}
+#izquierda{
+
+top:160px;
+left:0;
+
+}
+
+#derecha{
+  top:160px;
+  right:0;
+}
+#centro{
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  border-radius: 100%;
+  border: 3px solid white;
+  top:36%;
+  left:41%;
+}
+.pelota{
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  background-color: white;
+}
+
+#uno{
+position: relative;
+left:92%;
+top:-2%;
+}
+
+#dos{
+position: relative;
+left:23%;
+bottom:60%;
+}
+
+#tres{
+position: relative;
+left:-5%;
+top:90%;
 }
